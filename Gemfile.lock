@@ -23,6 +23,7 @@ GEM
     puma (2.11.3)
       rack (>= 1.1, < 2.0)
     rack (1.6.1)
+    rack-cors (0.4.0)
     rack-protection (1.5.3)
       rack
     sinatra (1.4.6)
@@ -53,6 +54,7 @@ DEPENDENCIES
   haml
   pry
   puma
+  rack-cors
   sinatra
   sprockets
   sprockets-helpers
