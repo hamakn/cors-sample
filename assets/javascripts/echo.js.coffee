@@ -5,7 +5,7 @@ window.onload = ->
 init = ->
   success_callback = (res) -> success(res)
   error_callback = (d, msg) -> error(d, msg)
-  $.ajax("http://localhost:5000/api/echo.json", {
+  $.ajax("https://cors-sandbox.herokuapp.com/api/echo.json", {
     type: "POST",
     data: {
       one: 1,
